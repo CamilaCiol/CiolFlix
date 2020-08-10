@@ -1,20 +1,17 @@
 import React from 'react';
 import { FooterBase } from './styles';
-import logo from '../../assets/img/logo.png';
+import camila from '../../assets/img/camila.png';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
         
-        <img className="Logo" src={logo}  alt="CamilaFlix logo"/>
+        <img className="Logo" src={camila}  alt="CamilaFlix logo"/>
       </a>
       <p>
-        Orgulhosamente criado durante a
-        {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
-        </a>
+        Proudly presents Netflix clone
+        
       </p>
     </FooterBase>
   );
